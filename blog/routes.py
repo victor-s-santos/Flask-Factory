@@ -1,4 +1,6 @@
-def init_app(app):
+from flask import Flask
+
+def init_app(app: Flask):
     """Inicializa as extensões"""
 
     @app.route("/")
