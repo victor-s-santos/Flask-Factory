@@ -1,4 +1,4 @@
-import routes
+from blog.rotas import routes
 from flask import Flask
 
 def create_app():
